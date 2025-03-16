@@ -1,0 +1,248 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>360visualizar.html</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">MUSEO</a>
+          <a href="#secc2">PONENTES</a>
+          <a href="#secc3">LIBROS</a>
+          <a href="#secc4">CINEMATOGRAFÍA</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>MUSEO</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El Museo del Louvre, el más importante de Francia y el más visitado del mundo, abierto al público desde 1793, fue el primero en poner colecciones privadas de la aristocracia y la monarquía en una galería de acceso público. Dicha obra arquitectónica, está ubicada en el antiguo Palacio Real del Louvre en París y es famoso por contar con más de 470.000 obras famosas (7000 son pinturas), algunas de ellas como La Gioconda de Leonardo da Vinci y La Venus de Milo.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Sin duda, uno de los lugares que debes visitar en París, pues te rodearás de una amplia belleza artística y cultural, ya que cuenta con varias secciones, además de que tendremos nuestro tan esperado festival: NARRATIVAS REVELADAS, donde tendremos la presencia de algunos grandes ponentes y geopolíticos, así como la exposición de libros y materiales audiovisuales como "Land of the Blind", englobando temas de economía, poder, el control y manipulación social de nuestra era, geopolítica, entre otros.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		       <p> Acompáñanos, y descubre con nosotros las "narrativas reveladas"</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		    
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	        		
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        	
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>PONENTES</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Como parte de nuestros ponentes, tenemos a cuatro grandes autores, historiadores y geopolíticos, a continuación veremos un poco sobre cada uno de ellos: 
+		        	<br>
+		        	<br>
+		        	<p>1° Jorge Guerra, autor de "La Nobleza Negra"</p>
+		        	<br>
+						<p>Destacado investigador y autor, es conocido por su exhaustivo trabajo sobre la "Nobleza Negra", en su libro, Guerra explora los orígenes, la organización y la influencia de esta élite misteriosa en los eventos más significativos de la historia mundial. Su enfoque detallado y su capacidad para desentrañar los secretos de estas poderosas familias han capturado la atención de lectores y académicos por igual.<p/>
+						<p>Asimismo, Guerra ha sido invitado a numerosas conferencias y seminarios internacionales, donde ha compartido sus hallazgos y ha debatido sobre el impacto de la nobleza negra en la política y la economía globales, por lo que será tan emocionante tenerlo en nuestro festival</p>
+		      	  <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>2° Anthony Sutton, historiador y autor de "Wall Street"</p>
+		       	 <br>
+		        <p>Anthony fue un historiador y economista británico-estadounidense, conocido por su serie de libros sobre la influencia de Wall Street en eventos históricos clave, su trilogía "Wall Street" examina cómo los financieros y banqueros internacionales manipularon los asuntos mundiales durante el siglo XX, incluyendo la Revolución Bolchevique, la presidencia de Franklin D. Roosevelt y el ascenso de Hitler2. De igual manera, Sutton es reconocido por su investigación rigurosa y su habilidad para revelar conexiones ocultas entre el poder financiero y los eventos históricos</p>
+		        	<p>Cabe decir que, además de su trabajo académico, Sutton fue profesor en la Universidad Estatal de California y miembro del Instituto Hoover en la Universidad de Stanford, donde realizó investigaciones sobre el desarrollo económico soviético.</p>
+		        <br>
+		        	<p>3° Marcelo Gullo, autor de la "Teoría de la Insubordinación Fundante"</p>
+		        <br>
+		      	  <p>Gullo, académico y analista argentino, es el creador de la teoría de la insubordinación fundante, la cual ha sido ampliamente discutida y ha influido en el pensamiento político y económico de América Latina. En dicha obra ", Gullo argumenta que la historia de las naciones exitosas está marcada por actos de insubordinación frente a las potencias dominantes, donde solo a través de ello y de la construcción de un poder propio, las naciones pueden lograr un verdadero desarrollo y emancipación. Por lo que, su enfoque innovador y su análisis profundo de las relaciones internacionales, han hecho de su teoría una referencia importante en el campo de la política y la historia.</p>
+		      	 <br>
+		      		 <p>4° Juan Miguel Zunzunegui, escritor de "Las mentiras de la historia de México"</p>
+		      		<br>
+		      	<p>Miguel Zunzunegui, historiador y escritor mexicano conocido por su enfoque crítico y revisionista de la historia de México, ha dedicado su carrera a desmitificar y reinterpretar eventos históricos clave desde una perspectiva diferente a la tradicional.</p>
+		      	<p>En dicho libro, Zunzunegui aborda varios mitos y malentendidos comunes sobre la historia del país, donde se centra en desentrañar las narrativas oficiales y populares que, según él, han distorsionado la comprensión de la historia mexicana, y es a través de un análisis riguroso y accesible, donde Miguel invita a los lectores a cuestionar lo que han aprendido y a considerar nuevas perspectivas sobre los eventos históricos importantes</p>
+		      	<br>
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>Miguel Zunzunegui, Anthony Sutton, Jorge Guerra y Marcelo Gullo .</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>LIBROS</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>1984, de George Orwell</p>
+		        <br>
+		         <p>1984 es una obra maestra de la literatura distópica, dicha novela se sitúa en un mundo dividido en tres superestados: Oceanía, Eurasia y Asia Oriental, donde el protagonista Winston Smith, vive en Londres, la capital de Oceanía, cuyo Partido controla todos los aspectos de la vida. Asimismo, aparece "El Gran Hermano", una figura omnipresente que simboliza la vigilancia constante.</p>
+		         <p>En la novela, Winston trabaja en el Ministerio de la Verdad, donde su tarea es alterar registros históricos para que coincidan con la propaganda del Partido, y así, a medida que Winston comienza a cuestionar el régimen, se enfrentará a terribles consecuencias. Dicha obra explora temas como la manipulación del lenguaje (neolengua), la vigilancia masiva y la represión política.</p>
+		        <br>
+		        <p>Un mundo feliz, de Aldous Huxley</p>
+		          <br>
+		         <p>Presenta una sociedad futurista donde la estabilidad y la felicidad se logran a través de la ingeniería genética y el condicionamiento psicológico, los seres humanos son creados en laboratorios y divididos en castas, desde los Alfas, que ocupan los puestos más altos, hasta los Epsilones, que realizan trabajos manuales.</p>
+		         <p>En la obra, La droga soma se utiliza para mantener a la población contenta y evitar cualquier tipo de conflicto, por lo que, el protagonista, Bernard Marx, que es un "Alfa" comienza a cuestionar el sistema.</p>
+		         <p>La novela aborda temas como la pérdida de la individualidad, el control social y los peligros de una sociedad excesivamente tecnificada.</p>
+		        <br>
+		        <p>The Rape of the Mind, de Joost A. Meerloo</p>
+		        <br>
+		        <p>Es una obra escrita por el psiquiatra Joost, publicada en 1956. En este libro, Meerloo explora en profundidad las técnicas de control mental y lavado de cerebro utilizadas por los regímenes totalitarios para manipular y dominar a las personas.</p>
+		        <p>Basándose en sus experiencias durante la ocupación nazi de Holanda y su trabajo como psiquiatra, Meerloo ofrece un análisis detallado de cómo estas técnicas pueden deshumanizar a los individuos y convertirlos en herramientas del estado. Cabe decir, que el autor escribió este libro en un contexto de posguerra, cuando el mundo estaba lidiando con las secuelas de la segunda guerra mundial y el inicio de la Guerra Fría, su objetivo era alertar al público sobre los peligros de la manipulación psicológica y la importancia de proteger la libertad individual y la integridad mental.</p>
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>Podrás encontrar en el festival dichas obras a la venta, así como algunas conferencias</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>CINEMATOGRAFÍA</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Land of the blind (2006)</p>
+		        <br>
+		        <p>Land of the Blind es una película de drama político británico-estadounidense de 2006, dirigida por Robert Edwards y protagonizada por Ralph Fiennes y Donald Sutherland. La trama se desarrolla en un país ficticio y sigue la historia de Joe, un soldado idealista que entabla una amistad ilícita con Thorne, un prisionero político famoso.</p>
+		        <p>Thorne recluta a Joe para un golpe de estado sangriento contra el gobierno autoritario, sin embargo, después de la revolución, las demandas de Thorne llevan a un conflicto amargo entre los dos hombres, lo que resulta en una espiral de locura y violencia. La película es una sátira oscura que critica tanto a los regímenes tiránicos como a los movimientos revolucionarios que a menudo resultan ser igualmente opresivos, dicho título se inspira en el dicho "En la tierra de los ciegos, el tuerto es rey".</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Zeitgeist: The Movie (2007)</p>
+		        <br>
+		        <p>Documental dirigido por Peter Joseph, pertenece al primero de una serie de tres documentales que presentan varias teorías de conspiración y propuestas para cambios sociales y económicos amplios. El documental se divide en tres partes:
+						<p>Religión: Argumenta que las religiones, especialmente el cristianismo, se basan en mitos astrológicos y antiguos.</p>
+						<p>11 de septiembre: Sostiene que los ataques del 11 de septiembre fueron orquestados o permitidos por elementos dentro del gobierno de Estados Unidos para justificar la guerra contra el terror y restringir las libertades civiles.</p>
+						<p>Sistema financiero: Afirma que el sistema de la reserva federal está controlado por un pequeño grupo de banqueros internacionales que conspiran para crear calamidades globales para enriquecerse</p>
+						<p>El documental ha sido controvertido y ha generado tanto apoyo como críticas por sus afirmaciones y teorías.</p>
+		        <br>
+		        <p>The Money Masters (1996)</p>
+		        <br>
+		        <p>Es un documental de 1996 dirigido por William T. Still, que examina la historia y la influencia de los "cambiadores de dinero", es decir, los banqueros privados que controlan la emisión y manipulación del dinero, además traza el origen de este esquema desde tiempos antiguos hasta el presente y cómo ha causado guerras, depresiones y corrupción. Asimismo, comunica cómo algunos líderes y movimientos han intentado resistir o reformar el sistema y qué soluciones son posibles para devolver el poder del dinero a la gente.</p>
+		        <p>El documental cubre temas como la banca de reserva fraccionaria, la política monetaria, el mercado de bonos y el sistema de la Reserva Federal en Estados Unidos. Es una obra extensa que busca educar al público sobre la historia y el funcionamiento del sistema financiero global.</p>
+    		</div>
+    		
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+    			<a href="360visualizar.html">
+
+        		<img  src="imagenes/img 1a.png" title="img 1a">
+        		<!--texto para la imagen--> 
+        		</a>
+        		<p>
+        			</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img5.png" title="Img 5">
+        		<!--texto para la imagen-->
+        		<p>
+    		</div>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
