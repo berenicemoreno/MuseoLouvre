@@ -336,3 +336,11 @@ footer {
 body{
 	background-color: #063970;
 }
+
+/********************************/
+/* Estilos personalizados */
+/********************************/
+.imagen-especifica {
+    width: 30%; /* Solo esta imagen será afectada */
+    height: auto; /* Mantén la proporción de la imagen */
+}
