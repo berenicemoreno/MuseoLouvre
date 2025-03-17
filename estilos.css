@@ -341,7 +341,7 @@ body{
 /* Estilos personalizados */
 /********************************/
 .imagen-especifica {
-    width: 45%; /* Solo esta imagen será afectada */
+    width: 50%; /* Solo esta imagen será afectada */
     height: auto; /* Mantén la proporción de la imagen */
 }
 
