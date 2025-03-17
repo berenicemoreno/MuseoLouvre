@@ -341,6 +341,11 @@ body{
 /* Estilos personalizados */
 /********************************/
 .imagen-especifica {
-    width: 30%; /* Solo esta imagen será afectada */
+    width: 45%; /* Solo esta imagen será afectada */
     height: auto; /* Mantén la proporción de la imagen */
+}
+
+.imagen-especifica {
+    display: block; /* Cambia el comportamiento a "bloque" */
+    margin: 0 auto; /* Margen automático para centrar horizontalmente */
 }
