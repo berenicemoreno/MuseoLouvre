@@ -348,7 +348,7 @@ body{
 .imagen-especifica {
     display: block; /* Cambia el comportamiento a bloque */
     margin: 0 auto; /* Centra horizontalmente */
-    width: 30%; /* Ajusta el tamaño al 30% del ancho del contenedor */
+    width: 45%; /* Ajusta el tamaño al 30% del ancho del contenedor */
     height: auto; /* Mantén la proporción */
 }
 
